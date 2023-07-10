@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body{
+  font-size: 20px;
+  font-weight: 500;
+}
+
 header{
   background-image: url(../img/pattern.png);
   background-color: rgb(78, 160, 255);
@@ -14,3 +19,24 @@ header img{
   padding: 50px 0 0 20px;
 }
 
+section{
+  margin-bottom: 10px;
+}
+
+main, .inserzioni-finali{
+  padding: 20px 0 0 20px;
+}
+
+.sottotitolo{
+  color: grey;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.sottotitolo, .didascalia-foto{
+  font-size: 14px;
+}
+
+#booleaner{
+  color: rgb(78, 160, 255);
+}s
