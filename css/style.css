@@ -27,8 +27,11 @@ main, .inserzioni-finali{
   padding: 20px 20px;
 }
 
-.sottotitolo{
+h5, .sottotitolo{
   color: grey;
+}
+
+.sottotitolo{
   font-weight: 900;
   margin-bottom: 10px;
 }
@@ -41,6 +44,37 @@ main, .inserzioni-finali{
   background-color: rgb(238, 238, 106);
 }
 
+.row{
+  background-color: rgb(35, 169, 229);
+  color: white;
+  position: relative;
+}
+.row-light{
+  background-color: rgb(177, 229, 242);
+}
+
+.sinistra, .centro, .destra{
+  width: 500px;
+  display: inline-block;
+}
+
+.computer, .graph{
+  width: 300px;
+  height: 200px;
+  color: white;
+  padding: 20px 20px;
+  font-weight: bold;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.computer{
+  background-image: url(../img/monitor.jpg);
+}
+
+.graph{
+  background-image: url(../img/graph.jpg);
+}
 #booleaner{
   color: rgb(78, 160, 255);
 }
