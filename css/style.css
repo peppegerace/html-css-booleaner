@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url(../img/pattern.png);
+  background-color: rgb(78, 160, 255);
+  background-size: 420px;
+}
+
+header img{
+  width: 200px;
+  padding: 50px 0 0 20px;
+}
+
