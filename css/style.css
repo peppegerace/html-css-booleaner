@@ -19,12 +19,12 @@ header img{
   padding: 50px 0 0 20px;
 }
 
-section{
+section, p{
   margin-bottom: 10px;
 }
 
 main, .inserzioni-finali{
-  padding: 20px 0 0 20px;
+  padding: 20px 20px;
 }
 
 .sottotitolo{
@@ -37,6 +37,11 @@ main, .inserzioni-finali{
   font-size: 14px;
 }
 
+.evidenziato{
+  background-color: rgb(238, 238, 106);
+}
+
 #booleaner{
   color: rgb(78, 160, 255);
-}s
+}
+
